@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\bin\Debug\net8.0\LibraryApi.Application.deps.json
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\bin\Debug\net8.0\LibraryApi.Application.dll
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\bin\Debug\net8.0\LibraryApi.Application.pdb
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\bin\Debug\net8.0\LibraryApi.Domain.dll
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\bin\Debug\net8.0\LibraryApi.Domain.pdb
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\obj\Debug\net8.0\LibraryApi.Application.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\obj\Debug\net8.0\LibraryApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\obj\Debug\net8.0\LibraryApi.Application.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\obj\Debug\net8.0\LibraryApi.Application.AssemblyInfo.cs
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\obj\Debug\net8.0\LibraryApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\obj\Debug\net8.0\LibraryApi.Application.sourcelink.json
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\obj\Debug\net8.0\LibraryA.08D08198.Up2Date
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\obj\Debug\net8.0\LibraryApi.Application.dll
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\obj\Debug\net8.0\refint\LibraryApi.Application.dll
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\obj\Debug\net8.0\LibraryApi.Application.pdb
+C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.Application\obj\Debug\net8.0\ref\LibraryApi.Application.dll
