@@ -1,4 +1,8 @@
+using LibraryApi.Application.Interfaces.Repositories;
+using LibraryApi.Application.Interfaces.Services;
+using LibraryApi.Application.Services;
 using LibraryApi.Infrastructure.Data;
+using LibraryApi.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +14,18 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<IMemberRepository, MemberRepository>();
+builder.Services.AddScoped<ILoanRepository, LoanRepository>();
+
+// Services
+builder.Services.AddScoped<IAuthorService, AuthorService>();
+builder.Services.AddScoped<IBookService, BookService>();
+builder.Services.AddScoped<IMemberService, MemberService>();
+builder.Services.AddScoped<ILoanService, LoanService>();
 
 var app = builder.Build();
 

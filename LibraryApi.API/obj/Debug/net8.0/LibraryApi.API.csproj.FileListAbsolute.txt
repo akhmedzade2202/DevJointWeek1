@@ -149,4 +149,3 @@ C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.API\obj\Debug\net8.0\ref
 C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.API\obj\Debug\net8.0\LibraryApi.API.pdb
 C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.API\obj\Debug\net8.0\LibraryApi.API.genruntimeconfig.cache
 C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.API\obj\Debug\net8.0\ref\LibraryApi.API.dll
-C:\Users\User\Desktop\CodeAcademy\LibraryApi\LibraryApi.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
