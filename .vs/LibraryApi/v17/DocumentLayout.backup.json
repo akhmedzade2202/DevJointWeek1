@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.api\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|solutionrelative:libraryapi.api\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\interfaces\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\interfaces\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|solutionrelative:libraryapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|solutionrelative:libraryapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|solutionrelative:libraryapi.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.infrastructure\\security\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|solutionrelative:libraryapi.infrastructure\\security\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|solutionrelative:libraryapi.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\interfaces\\services\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\interfaces\\services\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -15,20 +59,76 @@
       "RelativeMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|solutionrelative:libraryapi.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|solutionrelative:libraryapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.infrastructure\\data\\migrations\\20260729091601_adduserentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|solutionrelative:libraryapi.infrastructure\\data\\migrations\\20260729091601_adduserentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.api\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|solutionrelative:libraryapi.api\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|solutionrelative:libraryapi.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.infrastructure\\security\\bcryptpasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|solutionrelative:libraryapi.infrastructure\\security\\bcryptpasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\interfaces\\services\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\interfaces\\services\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1E545C-C36F-4FB5-A527-E8D54E1ED4BF}|LibraryApi.Domain\\LibraryApi.Domain.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1E545C-C36F-4FB5-A527-E8D54E1ED4BF}|LibraryApi.Domain\\LibraryApi.Domain.csproj|solutionrelative:libraryapi.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1E545C-C36F-4FB5-A527-E8D54E1ED4BF}|LibraryApi.Domain\\LibraryApi.Domain.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1E545C-C36F-4FB5-A527-E8D54E1ED4BF}|LibraryApi.Domain\\LibraryApi.Domain.csproj|solutionrelative:libraryapi.domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\dtos\\author\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\dtos\\author\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\dtos\\member\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\dtos\\member\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\dtos\\loan\\loandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\dtos\\loan\\loandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\dtos\\book\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\dtos\\book\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.api\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|solutionrelative:libraryapi.api\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.api\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|solutionrelative:libraryapi.api\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.api\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|solutionrelative:libraryapi.api\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5FEEE0B-16B6-496E-9173-53C91E8140A7}|LibraryApi.API\\LibraryApi.API.csproj|solutionrelative:libraryapi.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|solutionrelative:libraryapi.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\interfaces\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\interfaces\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\interfaces\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\interfaces\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +137,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,28 +151,8 @@
       "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\interfaces\\services\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\interfaces\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\interfaces\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\interfaces\\services\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\interfaces\\services\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\dtos\\loan\\loandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\dtos\\loan\\loandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\dtos\\member\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\dtos\\member\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\dtos\\book\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\dtos\\book\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\dtos\\author\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\dtos\\author\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.infrastructure\\repositories\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,10 +161,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.infrastructure\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|solutionrelative:libraryapi.infrastructure\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|solutionrelative:libraryapi.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.infrastructure\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,20 +179,12 @@
       "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\interfaces\\repositories\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\interfaces\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\interfaces\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\interfaces\\repositories\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\interfaces\\repositories\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.application\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8C4177E-45AB-4270-A982-2FC181B7860A}|LibraryApi.Application\\LibraryApi.Application.csproj|solutionrelative:libraryapi.application\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE1F8A0E-57FC-4F6C-A1A1-8B09E29B4EA8}|LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj|solutionrelative:libraryapi.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D1E545C-C36F-4FB5-A527-E8D54E1ED4BF}|LibraryApi.Domain\\LibraryApi.Domain.csproj|c:\\users\\user\\desktop\\codeacademy\\libraryapi\\libraryapi.domain\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -166,7 +230,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -186,65 +250,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoansController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\LoansController.cs",
-              "RelativeDocumentMoniker": "LibraryApi.API\\Controllers\\LoansController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\LoansController.cs",
-              "RelativeToolTip": "LibraryApi.API\\Controllers\\LoansController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwD0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:33:35.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MembersController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\MembersController.cs",
-              "RelativeDocumentMoniker": "LibraryApi.API\\Controllers\\MembersController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\MembersController.cs",
-              "RelativeToolTip": "LibraryApi.API\\Controllers\\MembersController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwEQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:33:17.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "LibraryApi.API\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "LibraryApi.API\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwEQAAAABAAAAAAAAAA==",
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "LibraryApi.API\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Middleware\\ExceptionHandlingMiddleware.cs*",
+              "RelativeToolTip": "LibraryApi.API\\Middleware\\ExceptionHandlingMiddleware.cs*",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:33:01.008Z",
+              "WhenOpened": "2026-07-29T09:37:15.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthorsController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\AuthorsController.cs",
-              "RelativeDocumentMoniker": "LibraryApi.API\\Controllers\\AuthorsController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\AuthorsController.cs",
-              "RelativeToolTip": "LibraryApi.API\\Controllers\\AuthorsController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAQwDYAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LibraryApi.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "LibraryApi.API\\Controllers\\AuthController.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA/wBIAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:32:45.602Z",
+              "WhenOpened": "2026-07-29T09:30:49.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\AuthService.cs*",
+              "RelativeToolTip": "LibraryApi.Application\\Services\\AuthService.cs*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T09:30:17.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Program.cs",
               "RelativeDocumentMoniker": "LibraryApi.API\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Program.cs",
-              "RelativeToolTip": "LibraryApi.API\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwCkAAAAKAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Program.cs*",
+              "RelativeToolTip": "LibraryApi.API\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T18:21:30.967Z",
               "EditorCaption": ""
@@ -252,6 +303,162 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IAuthService.cs*",
+              "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Services\\IAuthService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T09:26:29.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\DTOs\\Auth\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Auth\\LoginDto.cs*",
+              "RelativeToolTip": "LibraryApi.Application\\DTOs\\Auth\\LoginDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T09:24:33.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\DTOs\\Auth\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Auth\\RegisterDto.cs*",
+              "RelativeToolTip": "LibraryApi.Application\\DTOs\\Auth\\RegisterDto.cs*",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T09:24:18.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Security\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Security\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Security\\JwtTokenGenerator.cs*",
+              "RelativeToolTip": "LibraryApi.Infrastructure\\Security\\JwtTokenGenerator.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T09:29:34.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\UserRepository.cs*",
+              "RelativeToolTip": "LibraryApi.Infrastructure\\Repositories\\UserRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T09:28:58.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Repositories\\IUserRepository.cs*",
+              "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Repositories\\IUserRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T09:27:09.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IJwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IJwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Services\\IJwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IJwtTokenGenerator.cs*",
+              "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Services\\IJwtTokenGenerator.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T09:26:07.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Auth\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\DTOs\\Auth\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Auth\\AuthResponseDto.cs*",
+              "RelativeToolTip": "LibraryApi.Application\\DTOs\\Auth\\AuthResponseDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T09:25:17.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20260729091601_AddUserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Data\\Migrations\\20260729091601_AddUserEntity.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Data\\Migrations\\20260729091601_AddUserEntity.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Data\\Migrations\\20260729091601_AddUserEntity.cs",
+              "RelativeToolTip": "LibraryApi.Infrastructure\\Data\\Migrations\\20260729091601_AddUserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T09:16:01.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BCryptPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Security\\BCryptPasswordHasher.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Security\\BCryptPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Security\\BCryptPasswordHasher.cs",
+              "RelativeToolTip": "LibraryApi.Infrastructure\\Security\\BCryptPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T09:08:33.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Services\\IPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IPasswordHasher.cs",
+              "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Services\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T09:07:43.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LibraryApi.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T18:01:22.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "LibraryApi.API\\appsettings.Development.json",
@@ -264,98 +471,167 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\appsettings.json",
               "RelativeDocumentMoniker": "LibraryApi.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\appsettings.json",
-              "RelativeToolTip": "LibraryApi.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\appsettings.json*",
+              "RelativeToolTip": "LibraryApi.API\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-07-22T18:04:06.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoanService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\LoanService.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Application\\Services\\LoanService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\LoanService.cs",
-              "RelativeToolTip": "LibraryApi.Application\\Services\\LoanService.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAgwFwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "LibraryApi.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:26:36.072Z",
+              "WhenOpened": "2026-07-29T09:06:38.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MemberService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\MemberService.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Application\\Services\\MemberService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\MemberService.cs",
-              "RelativeToolTip": "LibraryApi.Application\\Services\\MemberService.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAgwE8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Domain\\Enums\\Role.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Domain\\Enums\\Role.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Domain\\Enums\\Role.cs",
+              "RelativeToolTip": "LibraryApi.Domain\\Enums\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:26:11.911Z",
+              "WhenOpened": "2026-07-29T09:06:04.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 25,
+              "Title": "LoansController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\LoansController.cs",
+              "RelativeDocumentMoniker": "LibraryApi.API\\Controllers\\LoansController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\LoansController.cs",
+              "RelativeToolTip": "LibraryApi.API\\Controllers\\LoansController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAQwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:33:35.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "LibraryApi.API\\Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "LibraryApi.API\\Controllers\\AuthorsController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwDYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:32:45.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LibraryApi.API\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "LibraryApi.API\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:33:01.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MembersController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\MembersController.cs",
+              "RelativeDocumentMoniker": "LibraryApi.API\\Controllers\\MembersController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\Controllers\\MembersController.cs",
+              "RelativeToolTip": "LibraryApi.API\\Controllers\\MembersController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:33:17.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MemberDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Member\\MemberDto.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\DTOs\\Member\\MemberDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Member\\MemberDto.cs",
+              "RelativeToolTip": "LibraryApi.Application\\DTOs\\Member\\MemberDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA6wBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:21:14.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthorDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Author\\AuthorDto.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\DTOs\\Author\\AuthorDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Author\\AuthorDto.cs",
+              "RelativeToolTip": "LibraryApi.Application\\DTOs\\Author\\AuthorDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:20:21.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Book\\BookDto.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\DTOs\\Book\\BookDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Book\\BookDto.cs",
+              "RelativeToolTip": "LibraryApi.Application\\DTOs\\Book\\BookDto.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:20:48.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoanDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Loan\\LoanDto.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\DTOs\\Loan\\LoanDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Loan\\LoanDto.cs",
+              "RelativeToolTip": "LibraryApi.Application\\DTOs\\Loan\\LoanDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA8wBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:21:40.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "LibraryApi.Infrastructure\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:17:42.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\BookService.cs",
               "RelativeDocumentMoniker": "LibraryApi.Application\\Services\\BookService.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\BookService.cs",
               "RelativeToolTip": "LibraryApi.Application\\Services\\BookService.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAA3wGQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAYwGQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:25:55.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-22T19:25:55.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthorService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\AuthorService.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Application\\Services\\AuthorService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\AuthorService.cs",
-              "RelativeToolTip": "LibraryApi.Application\\Services\\AuthorService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAgwEUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:25:26.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ILoanService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\ILoanService.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Services\\ILoanService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\ILoanService.cs",
-              "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Services\\ILoanService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:24:25.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IMemberService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IMemberService.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Services\\IMemberService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IMemberService.cs",
-              "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Services\\IMemberService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:24:10.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 30,
               "Title": "IBookService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IBookService.cs",
               "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Services\\IBookService.cs",
@@ -363,168 +639,11 @@
               "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Services\\IBookService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:23:41.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-22T19:23:41.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IAuthorService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IAuthorService.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Services\\IAuthorService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IAuthorService.cs",
-              "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Services\\IAuthorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:22:23.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LoanDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Loan\\LoanDto.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Application\\DTOs\\Loan\\LoanDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Loan\\LoanDto.cs",
-              "RelativeToolTip": "LibraryApi.Application\\DTOs\\Loan\\LoanDto.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA3wBYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:21:40.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MemberDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Member\\MemberDto.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Application\\DTOs\\Member\\MemberDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Member\\MemberDto.cs",
-              "RelativeToolTip": "LibraryApi.Application\\DTOs\\Member\\MemberDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:21:14.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BookDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Book\\BookDto.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Application\\DTOs\\Book\\BookDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Book\\BookDto.cs",
-              "RelativeToolTip": "LibraryApi.Application\\DTOs\\Book\\BookDto.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:20:48.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AuthorDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Author\\AuthorDto.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Application\\DTOs\\Author\\AuthorDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\DTOs\\Author\\AuthorDto.cs",
-              "RelativeToolTip": "LibraryApi.Application\\DTOs\\Author\\AuthorDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:20:21.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoanRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\LoanRepository.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Repositories\\LoanRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\LoanRepository.cs",
-              "RelativeToolTip": "LibraryApi.Infrastructure\\Repositories\\LoanRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:19:02.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MemberRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\MemberRepository.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Repositories\\MemberRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\MemberRepository.cs",
-              "RelativeToolTip": "LibraryApi.Infrastructure\\Repositories\\MemberRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:18:23.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\BookRepository.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Repositories\\BookRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\BookRepository.cs",
-              "RelativeToolTip": "LibraryApi.Infrastructure\\Repositories\\BookRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:17:42.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AuthorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\AuthorRepository.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Repositories\\AuthorRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\AuthorRepository.cs",
-              "RelativeToolTip": "LibraryApi.Infrastructure\\Repositories\\AuthorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:17:23.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "LibraryApi.Infrastructure\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAA/wC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:16:53.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ILoanRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Repositories\\ILoanRepository.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Repositories\\ILoanRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Repositories\\ILoanRepository.cs",
-              "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Repositories\\ILoanRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:11:32.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IMemberRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Repositories\\IMemberRepository.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Repositories\\IMemberRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Repositories\\IMemberRepository.cs",
-              "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Repositories\\IMemberRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:11:04.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "IBookRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Repositories\\IBookRepository.cs",
               "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Repositories\\IBookRepository.cs",
@@ -532,12 +651,155 @@
               "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Repositories\\IBookRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:10:44.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-22T19:10:44.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
+              "Title": "LoanService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\LoanService.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\Services\\LoanService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\LoanService.cs",
+              "RelativeToolTip": "LibraryApi.Application\\Services\\LoanService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:26:36.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MemberService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\MemberService.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\Services\\MemberService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\MemberService.cs",
+              "RelativeToolTip": "LibraryApi.Application\\Services\\MemberService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:26:11.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\AuthorService.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\Services\\AuthorService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Services\\AuthorService.cs",
+              "RelativeToolTip": "LibraryApi.Application\\Services\\AuthorService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAgwEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:25:26.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ILoanService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\ILoanService.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Services\\ILoanService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\ILoanService.cs",
+              "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Services\\ILoanService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:24:25.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IMemberService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IMemberService.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Services\\IMemberService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IMemberService.cs",
+              "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Services\\IMemberService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:24:10.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IAuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IAuthorService.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Services\\IAuthorService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Services\\IAuthorService.cs",
+              "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Services\\IAuthorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:22:23.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\LoanRepository.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Repositories\\LoanRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\LoanRepository.cs",
+              "RelativeToolTip": "LibraryApi.Infrastructure\\Repositories\\LoanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:19:02.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\MemberRepository.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Repositories\\MemberRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\MemberRepository.cs",
+              "RelativeToolTip": "LibraryApi.Infrastructure\\Repositories\\MemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:18:23.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AuthorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\AuthorRepository.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Repositories\\AuthorRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\AuthorRepository.cs",
+              "RelativeToolTip": "LibraryApi.Infrastructure\\Repositories\\AuthorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:17:23.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "LibraryApi.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA/wC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:16:53.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ILoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Repositories\\ILoanRepository.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Repositories\\ILoanRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Repositories\\ILoanRepository.cs",
+              "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Repositories\\ILoanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:11:32.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IMemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Repositories\\IMemberRepository.cs",
+              "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Repositories\\IMemberRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Repositories\\IMemberRepository.cs",
+              "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Repositories\\IMemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T19:11:04.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
               "Title": "IAuthorRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Repositories\\IAuthorRepository.cs",
               "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Repositories\\IAuthorRepository.cs",
@@ -545,12 +807,11 @@
               "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Repositories\\IAuthorRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:10:24.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-22T19:10:24.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 45,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "LibraryApi.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
@@ -558,25 +819,11 @@
               "RelativeToolTip": "LibraryApi.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T19:09:52.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-22T19:09:52.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "LibraryApi.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAiwEYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T18:01:22.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 49,
               "Title": "Author.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Domain\\Entities\\Author.cs",
               "RelativeDocumentMoniker": "LibraryApi.Domain\\Entities\\Author.cs",
@@ -588,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 48,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Domain\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "LibraryApi.Domain\\Entities\\Book.cs",
@@ -600,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 47,
               "Title": "Loan.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Domain\\Entities\\Loan.cs",
               "RelativeDocumentMoniker": "LibraryApi.Domain\\Entities\\Loan.cs",
@@ -612,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 46,
               "Title": "Member.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Domain\\Entities\\Member.cs",
               "RelativeDocumentMoniker": "LibraryApi.Domain\\Entities\\Member.cs",
@@ -624,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 53,
               "Title": "LibraryApi.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj",
               "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj",
@@ -636,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 50,
               "Title": "20260722181605_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Infrastructure\\Migrations\\20260722181605_InitialCreate.cs",
               "RelativeDocumentMoniker": "LibraryApi.Infrastructure\\Migrations\\20260722181605_InitialCreate.cs",
@@ -648,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 51,
               "Title": "LibraryApi.Application.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Application\\LibraryApi.Application.csproj",
               "RelativeDocumentMoniker": "LibraryApi.Application\\LibraryApi.Application.csproj",
@@ -660,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 52,
               "Title": "LibraryApi.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.Domain\\LibraryApi.Domain.csproj",
               "RelativeDocumentMoniker": "LibraryApi.Domain\\LibraryApi.Domain.csproj",
@@ -672,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 54,
               "Title": "LibraryApi.API.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\CodeAcademy\\LibraryApi\\LibraryApi.API\\LibraryApi.API.csproj",
               "RelativeDocumentMoniker": "LibraryApi.API\\LibraryApi.API.csproj",

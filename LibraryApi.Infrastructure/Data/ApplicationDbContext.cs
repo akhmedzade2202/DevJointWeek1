@@ -14,6 +14,7 @@ public class ApplicationDbContext : DbContext
     public DbSet<Book> Books { get; set; } = null!;
     public DbSet<Member> Members { get; set; } = null!;
     public DbSet<Loan> Loans { get; set; } = null!;
+    public DbSet<User> Users { get; set; } = null!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -66,6 +67,36 @@ public class ApplicationDbContext : DbContext
                   .WithMany(m => m.Loans)
                   .HasForeignKey(l => l.MemberId)
                   .OnDelete(DeleteBehavior.Restrict);
+        });
+
+        modelBuilder.Entity<User>(entity =>
+        {
+            entity.HasKey(u => u.Id);
+
+            entity.Property(u => u.Username)
+                .IsRequired()
+                .HasMaxLength(50);
+
+            entity.HasIndex(u => u.Username)
+                .IsUnique();
+
+            entity.Property(u => u.Email)
+                .IsRequired()
+                .HasMaxLength(150);
+
+            entity.HasIndex(u => u.Email)
+                .IsUnique();
+
+            entity.Property(u => u.PasswordHash)
+                .IsRequired();
+
+            entity.Property(u => u.Role)
+                .IsRequired()
+                .HasConversion<string>() 
+                .HasMaxLength(20);
+
+            entity.Property(u => u.CreatedAt)
+                .IsRequired();
         });
     }
 }
