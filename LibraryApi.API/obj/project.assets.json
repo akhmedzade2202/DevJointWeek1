@@ -846,18 +846,15 @@
           }
         }
       },
-      "Microsoft.OpenApi/2.7.5": {
+      "Microsoft.OpenApi/1.6.25": {
         "type": "package",
-        "dependencies": {
-          "System.Text.Json": "8.0.5"
-        },
         "compile": {
-          "lib/net8.0/Microsoft.OpenApi.dll": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "related": ".xml;.pdb"
           }
         },
         "runtime": {
-          "lib/net8.0/Microsoft.OpenApi.dll": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "related": ".xml;.pdb"
           }
         }
@@ -909,13 +906,13 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
-      "Swashbuckle.AspNetCore/10.2.3": {
+      "Swashbuckle.AspNetCore/9.0.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "8.0.0",
-          "Swashbuckle.AspNetCore.Swagger": "10.2.3",
-          "Swashbuckle.AspNetCore.SwaggerGen": "10.2.3",
-          "Swashbuckle.AspNetCore.SwaggerUI": "10.2.3"
+          "Swashbuckle.AspNetCore.Swagger": "9.0.6",
+          "Swashbuckle.AspNetCore.SwaggerGen": "9.0.6",
+          "Swashbuckle.AspNetCore.SwaggerUI": "9.0.6"
         },
         "build": {
           "build/Swashbuckle.AspNetCore.props": {}
@@ -924,10 +921,10 @@
           "buildMultiTargeting/Swashbuckle.AspNetCore.props": {}
         }
       },
-      "Swashbuckle.AspNetCore.Swagger/10.2.3": {
+      "Swashbuckle.AspNetCore.Swagger/9.0.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.OpenApi": "2.7.5"
+          "Microsoft.OpenApi": "1.6.25"
         },
         "compile": {
           "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
@@ -943,10 +940,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Swashbuckle.AspNetCore.SwaggerGen/10.2.3": {
+      "Swashbuckle.AspNetCore.SwaggerGen/9.0.6": {
         "type": "package",
         "dependencies": {
-          "Swashbuckle.AspNetCore.Swagger": "10.2.3"
+          "Swashbuckle.AspNetCore.Swagger": "9.0.6"
         },
         "compile": {
           "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
@@ -959,7 +956,7 @@
           }
         }
       },
-      "Swashbuckle.AspNetCore.SwaggerUI/10.2.3": {
+      "Swashbuckle.AspNetCore.SwaggerUI/9.0.6": {
         "type": "package",
         "compile": {
           "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
@@ -1500,20 +1497,17 @@
           }
         }
       },
-      "System.Text.Json/8.0.5": {
+      "System.Text.Json/4.7.2": {
         "type": "package",
         "compile": {
-          "lib/net8.0/System.Text.Json.dll": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/System.Text.Json.dll": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
             "related": ".xml"
           }
-        },
-        "build": {
-          "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
       "System.Threading.Channels/6.0.0": {
@@ -2972,21 +2966,18 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.OpenApi/2.7.5": {
-      "sha512": "0FA67RSnRM4tcBKqiqVu/HPdZ9+QOKbmeRjxRUGTCjPU4C0bmUhd97Dso7Yild5P7nOV6GxJ2xrK0Kv/O9xp0w==",
+    "Microsoft.OpenApi/1.6.25": {
+      "sha512": "ZahSqNGtNV7N0JBYS/IYXPkLVexL/AZFxo6pqxv6A7Uli7Q7zfitNjkaqIcsV73Ukzxi4IlJdyDgcQiMXiH8cw==",
       "type": "package",
-      "path": "microsoft.openapi/2.7.5",
+      "path": "microsoft.openapi/1.6.25",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "lib/net8.0/Microsoft.OpenApi.dll",
-        "lib/net8.0/Microsoft.OpenApi.pdb",
-        "lib/net8.0/Microsoft.OpenApi.xml",
         "lib/netstandard2.0/Microsoft.OpenApi.dll",
         "lib/netstandard2.0/Microsoft.OpenApi.pdb",
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
-        "microsoft.openapi.2.7.5.nupkg.sha512",
+        "microsoft.openapi.1.6.25.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
     },
@@ -3050,30 +3041,27 @@
         "mono.texttemplating.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore/10.2.3": {
-      "sha512": "8KNh1RWvofdU6DVLyBs4Z/OpUMnmf8oNvJQc0QxpwySRbi42bwLfdVMMrXZWANg5U5KQGQq1xW6r/hlcqw99tQ==",
+    "Swashbuckle.AspNetCore/9.0.6": {
+      "sha512": "q/UfEAgrk6qQyjHXgsW9ILw0YZLfmPtWUY4wYijliX6supozC+TkzU0G6FTnn/dPYxnChjM8g8lHjWHF6VKy+A==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore/10.2.3",
+      "path": "swashbuckle.aspnetcore/9.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/Swashbuckle.AspNetCore.props",
         "buildMultiTargeting/Swashbuckle.AspNetCore.props",
         "docs/package-readme.md",
-        "swashbuckle.aspnetcore.10.2.3.nupkg.sha512",
+        "swashbuckle.aspnetcore.9.0.6.nupkg.sha512",
         "swashbuckle.aspnetcore.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.Swagger/10.2.3": {
-      "sha512": "1jUUs3WQnrS0FUtaZPLSy1yYMEwS1zlvDmvQ2/eldPHUANX0LJSLVZecCMgSMdeGiRqeaRrIXLtSz++TCiTMww==",
+    "Swashbuckle.AspNetCore.Swagger/9.0.6": {
+      "sha512": "Bgyc8rWRAYwDrzjVHGbavvNE38G1Dfgf1McHYm+WUr4TxkvEAXv8F8B1z3Kmz4BkDCKv9A/1COa2t7+Ri5+pLg==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swagger/10.2.3",
+      "path": "swashbuckle.aspnetcore.swagger/9.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net10.0/Swashbuckle.AspNetCore.Swagger.dll",
-        "lib/net10.0/Swashbuckle.AspNetCore.Swagger.pdb",
-        "lib/net10.0/Swashbuckle.AspNetCore.Swagger.xml",
         "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll",
         "lib/net8.0/Swashbuckle.AspNetCore.Swagger.pdb",
         "lib/net8.0/Swashbuckle.AspNetCore.Swagger.xml",
@@ -3081,20 +3069,17 @@
         "lib/net9.0/Swashbuckle.AspNetCore.Swagger.pdb",
         "lib/net9.0/Swashbuckle.AspNetCore.Swagger.xml",
         "package-readme.md",
-        "swashbuckle.aspnetcore.swagger.10.2.3.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.9.0.6.nupkg.sha512",
         "swashbuckle.aspnetcore.swagger.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.SwaggerGen/10.2.3": {
-      "sha512": "y7t4coDRAeFYChmvlMRiH2OjbiRrm9AVIDgt17fQfs3x9PVAI5PiwWYOhg+4F13R4Q36WDc9lqfoOnNa3tNbGg==",
+    "Swashbuckle.AspNetCore.SwaggerGen/9.0.6": {
+      "sha512": "yYrDs5qpIa4UXP+a02X0ZLQs6HSd1C8t6hF6J1fnxoawi3PslJg1yUpLBS89HCbrDACzmwEGG25il+8aa0zdnw==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swaggergen/10.2.3",
+      "path": "swashbuckle.aspnetcore.swaggergen/9.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
-        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
-        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
         "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
         "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
         "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
@@ -3102,20 +3087,17 @@
         "lib/net9.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
         "lib/net9.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
         "package-readme.md",
-        "swashbuckle.aspnetcore.swaggergen.10.2.3.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.9.0.6.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggergen.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.SwaggerUI/10.2.3": {
-      "sha512": "nthWONRs/FJ4yyG206g1cC52WEG8EqrjuMWjGdR+5XG7lbjFto6NqcI9EMICgVFom/UivIjUVwI76ZHbHwTPfQ==",
+    "Swashbuckle.AspNetCore.SwaggerUI/9.0.6": {
+      "sha512": "WGsw/Yop9b16miq8TQd4THxuEgkP5cH3+DX93BrX9m0OdPcKNtg2nNm77WQSAsA+Se+M0bTiu8bUyrruRSeS5g==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swaggerui/10.2.3",
+      "path": "swashbuckle.aspnetcore.swaggerui/9.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
-        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
-        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
         "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
         "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
         "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
@@ -3123,7 +3105,7 @@
         "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
         "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
         "package-readme.md",
-        "swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.9.0.6.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
@@ -3972,77 +3954,26 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/8.0.5": {
-      "sha512": "0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
+    "System.Text.Json/4.7.2": {
+      "sha512": "TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
       "type": "package",
-      "path": "system.text.json/8.0.5",
+      "path": "system.text.json/4.7.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
-        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
-        "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
-        "analyzers/dotnet/roslyn3.11/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/de/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/es/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/it/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll",
-        "analyzers/dotnet/roslyn4.0/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/de/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/es/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/it/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll",
-        "analyzers/dotnet/roslyn4.4/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/de/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/es/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/it/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
-        "buildTransitive/net461/System.Text.Json.targets",
-        "buildTransitive/net462/System.Text.Json.targets",
-        "buildTransitive/net6.0/System.Text.Json.targets",
-        "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
-        "buildTransitive/netstandard2.0/System.Text.Json.targets",
-        "lib/net462/System.Text.Json.dll",
-        "lib/net462/System.Text.Json.xml",
-        "lib/net6.0/System.Text.Json.dll",
-        "lib/net6.0/System.Text.Json.xml",
-        "lib/net7.0/System.Text.Json.dll",
-        "lib/net7.0/System.Text.Json.xml",
-        "lib/net8.0/System.Text.Json.dll",
-        "lib/net8.0/System.Text.Json.xml",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.8.0.5.nupkg.sha512",
+        "system.text.json.4.7.2.nupkg.sha512",
         "system.text.json.nuspec",
-        "useSharedDesignerContext.txt"
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Threading.Channels/6.0.0": {
@@ -4154,7 +4085,8 @@
       "LibraryApi.Domain >= 1.0.0",
       "LibraryApi.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.10",
-      "Swashbuckle.AspNetCore >= 10.2.3"
+      "Microsoft.OpenApi >= 1.6.25",
+      "Swashbuckle.AspNetCore >= 9.0.6"
     ]
   },
   "packageFolders": {
@@ -4221,9 +4153,13 @@
             "target": "Package",
             "version": "[8.0.10, )"
           },
+          "Microsoft.OpenApi": {
+            "target": "Package",
+            "version": "[1.6.25, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
-            "version": "[10.2.3, )"
+            "version": "[9.0.6, )"
           }
         },
         "imports": [

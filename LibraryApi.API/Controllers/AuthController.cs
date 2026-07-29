@@ -1,5 +1,6 @@
 ﻿using LibraryApi.Application.DTOs.Auth;
 using LibraryApi.Application.Interfaces.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryApi.API.Controllers;
@@ -27,5 +28,13 @@ public class AuthController : ControllerBase
     {
         var result = await _authService.LoginAsync(dto);
         return Ok(result);
+    }
+    [Authorize]
+    [HttpGet("me")]
+    public IActionResult GetCurrentUser()
+    {
+        var username = User.Identity?.Name;
+        var role = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value;
+        return Ok(new { username, role });
     }
 }
