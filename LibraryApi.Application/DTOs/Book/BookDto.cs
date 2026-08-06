@@ -8,6 +8,8 @@ public class BookDto
     public int PublishedYear { get; set; }
     public int AuthorId { get; set; }
     public string? AuthorFullName { get; set; }
+    public List<string> Categories { get; set; } = new(); 
+
 }
 
 public class CreateBookDto
@@ -16,6 +18,8 @@ public class CreateBookDto
     public string Isbn { get; set; } = string.Empty;
     public int PublishedYear { get; set; }
     public int AuthorId { get; set; }
+    public List<int> CategoryIds { get; set; } = new(); 
+
 }
 
 public class UpdateBookDto

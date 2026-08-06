@@ -15,6 +15,7 @@ public class ApplicationDbContext : DbContext
     public DbSet<Member> Members { get; set; } = null!;
     public DbSet<Loan> Loans { get; set; } = null!;
     public DbSet<User> Users { get; set; } = null!;
+    public DbSet<Category> Categories { get; set; } = null!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -92,11 +93,15 @@ public class ApplicationDbContext : DbContext
 
             entity.Property(u => u.Role)
                 .IsRequired()
-                .HasConversion<string>() 
+                .HasConversion<string>()
                 .HasMaxLength(20);
 
             entity.Property(u => u.CreatedAt)
                 .IsRequired();
         });
+        modelBuilder.Entity<Book>()
+    .HasMany(b => b.Categories)
+    .WithMany(c => c.Books)
+    .UsingEntity(j => j.ToTable("BookCategories"));
     }
 }

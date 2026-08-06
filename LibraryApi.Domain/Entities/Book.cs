@@ -10,4 +10,5 @@ public class Book
 
     public Author Author { get; set; } = null!;
     public ICollection<Loan> Loans { get; set; } = new List<Loan>();
+    public ICollection<Category> Categories { get; set; } = new List<Category>();
 }

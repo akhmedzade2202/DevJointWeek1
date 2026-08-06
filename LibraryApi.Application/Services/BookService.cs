@@ -9,11 +9,13 @@ public class BookService : IBookService
 {
     private readonly IBookRepository _bookRepository;
     private readonly IAuthorRepository _authorRepository;
+    private readonly ICategoryRepository _categoryRepository;
 
-    public BookService(IBookRepository bookRepository, IAuthorRepository authorRepository)
+    public BookService(IBookRepository bookRepository, IAuthorRepository authorRepository, ICategoryRepository categoryRepository)
     {
         _bookRepository = bookRepository;
         _authorRepository = authorRepository;
+        _categoryRepository = categoryRepository;
     }
 
     public async Task<IEnumerable<BookDto>> GetAllAsync()
@@ -25,7 +27,8 @@ public class BookService : IBookService
             Isbn = b.Isbn,
             PublishedYear = b.PublishedYear,
             AuthorId = b.AuthorId,
-            AuthorFullName = b.Author.FirstName + " " + b.Author.LastName
+            AuthorFullName = b.Author.FirstName + " " + b.Author.LastName,
+            Categories = b.Categories.Select(c => c.Name).ToList()
         });
         return await Task.FromResult(books.ToList());
     }
@@ -46,13 +49,17 @@ public class BookService : IBookService
         if (isbnExists)
             throw new InvalidOperationException($"Book with ISBN {dto.Isbn} already exists.");
 
+        var categories = await _categoryRepository.GetByIdsAsync(dto.CategoryIds);
+
         var book = new Book
         {
             Title = dto.Title,
             Isbn = dto.Isbn,
             PublishedYear = dto.PublishedYear,
-            AuthorId = dto.AuthorId
+            AuthorId = dto.AuthorId,
+            Categories = categories
         };
+
         var created = await _bookRepository.AddAsync(book);
         var withDetails = await _bookRepository.GetByIdWithDetailsAsync(created.Id);
         return MapToDto(withDetails!);
@@ -84,7 +91,6 @@ public class BookService : IBookService
     {
         var book = await _bookRepository.GetByIdAsync(id);
         if (book == null) return false;
-
         await _bookRepository.DeleteAsync(book);
         return true;
     }
@@ -96,6 +102,7 @@ public class BookService : IBookService
         Isbn = book.Isbn,
         PublishedYear = book.PublishedYear,
         AuthorId = book.AuthorId,
-        AuthorFullName = book.Author != null ? $"{book.Author.FirstName} {book.Author.LastName}" : null
+        AuthorFullName = book.Author != null ? $"{book.Author.FirstName} {book.Author.LastName}" : null,
+        Categories = book.Categories?.Select(c => c.Name).ToList() ?? new List<string>()
     };
 }

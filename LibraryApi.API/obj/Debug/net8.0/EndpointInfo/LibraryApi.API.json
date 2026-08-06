@@ -967,6 +967,13 @@
           "authorFullName": {
             "type": "string",
             "nullable": true
+          },
+          "categories": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1007,6 +1014,14 @@
           "authorId": {
             "type": "integer",
             "format": "int32"
+          },
+          "categoryIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
