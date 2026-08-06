@@ -1,168 +1,69 @@
-<<<<<<< HEAD
-# 📚 Kitabxana API
+# LibraryApi — .NET 8 / ASP.NET Core Web API
 
-**Repozitri:** `akhmedzade2202/DevJointWeek1`
+## Layihə haqqında
 
-## Ümumi Baxış
+Library Management System — CodeAcademy tapşırığının Spring Boot original versiyasının .NET stack-ə uyğunlaşdırılmış həyata keçirilməsi. Clean Architecture prinsipləri əsasında qurulub, JWT əsaslı autentifikasiya, rol əsaslı avtorizasiya və relational data əlaqələri ilə tam funksional REST API.
 
-Sadə, **RESTful** API, kitabxananın kitab, müəllif və istifadəçi kolleksiyasını idarə etməyə imkan verir. API CRUD (Create, Read, Update, Delete) əməliyyatları, axtarış və kitabların götürülməsi/qaytarılması üçün son nöqtələr təqdim edir. Təmiz arxitektura prinsipləri ilə hazırlanıb, genişləndirilə və saxlanıla bilər.
+**Stack:** .NET 8, ASP.NET Core Web API, Entity Framework Core, SQL Server, BCrypt, JWT Bearer, Swagger/Swashbuckle, xUnit
 
-## Xüsusiyyətlər
+**Layihə strukturu:**
+---
 
-- 📖 **Kitablar** – Kitabların əlavə edilməsi, siyahıya alınması, yenilənməsi, silinməsi və axtarılması.
-- 👩‍🏫 **Müəlliflər** – Müəllif məlumatlarının idarə edilməsi və kitabların müəlliflərlə əlaqələndirilməsi.
-- 🙋‍♂️ **İstifadəçilər** – Kitabxana üzvlərinin qeydiyyatı və borc tarixi izlənməsi.
-- 🔄 **Götür/Qaytar** – Kitabların götürülməsi və qaytarılması iş axını, mövcudluq avtomatik idarə olunur.
-- 🛡️ **Doğrulama və Xəta İdarəetməsi** – Konsistent HTTP status kodları və təsvirli xəta mesajları.
-- 🧪 **Testlər** – Unit və inteqrasiya testləri daxildir.
+## Həftə 2 — Autentifikasiya və Avtorizasiya (JWT + ASP.NET Core Identity ekvivalenti)
 
-## Texnologiya Yığını
+- **User entity + hash-lənmə:** Şifrələr BCrypt ilə hash-lənir, plain text saxlanmır
+- **Register/Login:** `POST /api/auth/register`, `POST /api/auth/login` — uğurlu girişdə JWT token qaytarır
+- **JWT filter chain:** `AddAuthentication().AddJwtBearer()` ilə stateless authentication, `UseAuthentication → UseAuthorization → MapControllers` düzgün middleware sırası
+- **Rol əsaslı giriş nəzarəti:** JWT-də `role` claim-i, oxuma əməliyyatları hər login olmuş user üçün (`[Authorize]`), yazma/silmə yalnız Admin üçün (`[Authorize(Roles="Admin")]`)
+- **Auth xətaları:** token yoxdur/etibarsızdır → 401, rol uyğun deyil → 403
+- **Token expiry:** `Jwt:ExpiryMinutes` konfiqurasiyası, `ValidateLifetime=true`, `ClockSkew=TimeSpan.Zero`
 
-| Təbəqə | Texnologiya |
-|-------|------------|
-| **Dil** | C# (.NET 6) |
-| **Veb Çərçivəsi** | ASP.NET Core Web API |
-| **Verilənlər Bazası** | Entity Framework Core ilə SQLite (default) |
-| **Asılılıq İnjektsiyası** | .NET‑in daxili DI |
-| **Testlər** | xUnit + Moq |
-| **Sənədləşdirmə** | Swagger / OpenAPI |
+## Həftə 3 — Verilənlər Bazası Əlaqələri və Qabaqcıl Sorğular
 
-## Başlamaq
-
-### Tələb olunanlar
-
-- [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0) və ya daha yuxarı versiya
-- İstəyə bağlı, Visual Studio və ya VS Code kimi bir IDE
-
-### Quraşdırma
-
-```bash
-# Repozitri klonlayın
-git clone https://github.com/akhmedzade2202/DevJointWeek1.git
-cd LibraryApi
-
-# Asılılıqları bərpa edin
-dotnet restore
-
-# Migrasiyaları tətbiq edin və verilənlər bazasını (SQLite) doldurun
-dotnet ef database update
-```
-
-### API‑ni İşə Salmaq
-
-```bash
-# İnkişaf rejimində işlədin
-dotnet run --project src/LibraryApi
-```
-
-API `http://localhost:5000` ünvanında əlçatan olacaq. Swagger UI‑ni `http://localhost:5000/swagger` ünvanından interaktiv test üçün istifadə edə bilərsiniz.
-
-## API Nöqtələri
-
-| Metod | Marşrut | Təsvir |
-|--------|-------|-------------|
-| `GET` | `/api/books` | Bütün kitabların səhifələnmiş siyahısı |
-| `GET` | `/api/books/{id}` | Tək kitabın detalları |
-| `POST` | `/api/books` | Yeni kitab əlavə edin |
-| `PUT` | `/api/books/{id}` | Mövcud kitabı yeniləyin |
-| `DELETE` | `/api/books/{id}` | Kitabı silin |
-| `POST` | `/api/books/{id}/borrow` | Kitabı bir istifadəçi üçün götürün |
-| `POST` | `/api/books/{id}/return` | Götürülmüş kitabı qaytarın |
-| `GET` | `/api/authors` | Müəlliflərin siyahısı |
-| `POST` | `/api/authors` | Müəllif əlavə edin |
-| `GET` | `/api/patrons` | Kitabxana istifadəçilərinin siyahısı |
-| `POST` | `/api/patrons` | Yeni istifadəçi qeydiyyatı |
-
-> **Qeyd:** Bütün sorğu/cevab gövdələri `Models` qovluğunda təyin olunub və Swagger‑də sənədləşdirilib.
-
-## Testlər
-
-```bash
-# Bütün unit və inteqrasiya testlərini işlədin
-dotnet test
-```
-
-## Töhfə Vermək
-
-Töhfə vermək üçün:
-
-1. Repozitorini forklayın.
-2. Yeni xüsusiyyət budağı yaradın (`git checkout -b feature/awesome-feature`).
-3. Təmiz, testləşdirilmiş kod yazın.
-4. Bütün testlərin keçdiyinə əmin olun (`dotnet test`).
-5. Dəyişikliklərinizi təsvir edən Pull Request göndərin.
-
-## Lisenziya
-
-Bu layihə **MIT Lisenziyası** ilə lisenziyalanıb – ətraflı məlumat üçün [LICENSE](LICENSE) faylını oxuyun.
+- **One-to-Many:** `Author → Book`, `Member → Loan` (mövcud strukturda)
+- **Many-to-Many:** yeni `Book ↔ Category` əlaqəsi, EF Core Fluent API ilə join cədvəli (`BookCategories`) konfiqurasiyası
+- **Derived query / LINQ sorğular:** `GET /api/books/by-year-range` — il aralığı və müəllif üzrə filtrasiya
+- **Dinamik axtarış endpoint-i:** `GET /api/books/search` — title, authorId, categoryId, yearFrom/yearTo parametrləri ilə şərti (dynamic) LINQ `Where` zənciri
+- **Tranzaksiya idarəetməsi:** kitab checkout əməliyyatı (`Loan` yaradılması + `Book.IsAvailable` yenilənməsi) EF Core `BeginTransactionAsync`/`CommitAsync`/`RollbackAsync` ilə bir bütöv əməliyyat kimi işləyir
+- **N+1 problem həlli:** `.Include()`/`.ThenInclude()` istifadə edilərək əlaqəli data (Author, Categories) tək SQL sorğusu ilə çəkilir
+- **Rollback testi:** xUnit + EF Core In-Memory provider ilə tranzaksiya uğursuz olduqda heç bir dəyişikliyin (Loan yaranması, Book statusu) tətbiq olunmadığını təsdiqləyən unit test
 
 ---
 
-*Kodlaşdırmanın zövqü!*
-=======
-📚 Library API
+## Quraşdırma və işə salma
 
-Ümumi Baxış
-Sadə, RESTful API, kitabxananın kitab, müəllif və istifadəçi kolleksiyasını idarə etməyə imkan verir. API CRUD (Create, Read, Update, Delete) əməliyyatları, axtarış və kitabların götürülməsi/qaytarılması üçün son nöqtələr təqdim edir. Təmiz arxitektura prinsipləri ilə hazırlanıb, genişləndirilə və saxlanıla bilər.
-
-Xüsusiyyətlər
-📖 Kitablar – Kitabların əlavə edilməsi, siyahıya alınması, yenilənməsi, silinməsi və axtarılması.
-👩‍🏫 Müəlliflər – Müəllif məlumatlarının idarə edilməsi və kitabların müəlliflərlə əlaqələndirilməsi.
-🙋‍♂️ İstifadəçilər – Kitabxana üzvlərinin qeydiyyatı və borc tarixi izlənməsi.
-🔄 Götür/Qaytar – Kitabların götürülməsi və qaytarılması iş axını, mövcudluq avtomatik idarə olunur.
-🛡️ Doğrulama və Xəta İdarəetməsi – Konsistent HTTP status kodları və təsvirli xəta mesajları.
-🧪 Testlər – Unit və inteqrasiya testləri daxildir.
-Texnologiya Yığını
-Təbəqə	Texnologiya
-Dil	C# (.NET 8)
-Veb Çərçivəsi	ASP.NET Core Web API
-Verilənlər Bazası	Entity Framework Core ilə SQLite (default)
-Asılılıq İnjektsiyası	.NET‑in daxili DI
-Testlər	xUnit + Moq
-Sənədləşdirmə	Swagger / OpenAPI
-Başlamaq
-Tələb olunanlar
-.NET 8 SDK və ya daha yuxarı versiya
-İstəyə bağlı, Visual Studio və ya VS Code kimi bir IDE
-Quraşdırma
-bash
-
-# Repozitri klonlayın
-git clone https://github.com/akhmedzade2202/DevJointWeek1.git
-cd LibraryApi
-# Asılılıqları bərpa edin
+```bash
 dotnet restore
-# Migrasiyaları tətbiq edin və verilənlər bazasını (SQLite) doldurun
-dotnet ef database update
-API‑ni İşə Salmaq
-bash
+dotnet ef database update --project LibraryApi.Infrastructure --startup-project LibraryApi.API
+dotnet run --project LibraryApi.API
+```
 
-# İnkişaf rejimində işlədin
-dotnet run --project src/LibraryApi
-API http://localhost:5000 ünvanında əlçatan olacaq. Swagger UI‑ni http://localhost:5000/swagger ünvanından interaktiv test üçün istifadə edə bilərsiniz.
+Swagger UI: `http://localhost:{port}/swagger`
 
-API Nöqtələri
-Metod	Marşrut	Təsvir
-GET	/api/books	Bütün kitabların səhifələnmiş siyahısı
-GET	/api/books/{id}	Tək kitabın detalları
-POST	/api/books	Yeni kitab əlavə edin
-PUT	/api/books/{id}	Mövcud kitabı yeniləyin
-DELETE	/api/books/{id}	Kitabı silin
-POST	/api/books/{id}/borrow	Kitabı bir istifadəçi üçün götürün
-POST	/api/books/{id}/return	Götürülmüş kitabı qaytarın
-GET	/api/authors	Müəlliflərin siyahısı
-POST	/api/authors	Müəllif əlavə edin
-GET	/api/patrons	Kitabxana istifadəçilərinin siyahısı
-POST	/api/patrons	Yeni istifadəçi qeydiyyatı
-Qeyd: Bütün sorğu/cevab gövdələri Models qovluğunda təyin olunub və Swagger‑də sənədləşdirilib.
+`appsettings.json` konfiqurasiyası:
+```json
+"Jwt": {
+  "Key": "...",
+  "Issuer": "LibraryApi",
+  "Audience": "LibraryApiUsers",
+  "ExpiryMinutes": 60
+},
+"ConnectionStrings": {
+  "DefaultConnection": "..."
+}
+```
 
-Testlər
-bash
+## Test axını
 
-# Bütün unit və inteqrasiya testlərini işlədin
+1. `POST /api/auth/register` — yeni user yarat (default rol: User)
+2. `POST /api/auth/login` — token al
+3. Swagger-də "Authorize" düyməsi ilə token-i əlavə et (`Bearer` prefiksi olmadan)
+4. `POST /api/authors`, `POST /api/books` — Admin rolu tələb edir
+5. `GET /api/books/search?title=&categoryId=&yearFrom=&yearTo=` — dinamik axtarış
+6. `POST /api/loans/checkout?bookId=&memberId=` — tranzaksiyalı checkout əməliyyatı
+
+## Testlərin işə salınması
+
+```bash
 dotnet test
-
-Təmiz, testləşdirilmiş kod yazın.
-Bütün testlərin keçdiyinə əmin olun (dotnet test).
-Dəyişikliklərinizi təsvir edən Pull Request göndərin.
->>>>>>> 61d3ec9e4ccc45ab478d723d3c5fa4cfce3f4a61
+```
