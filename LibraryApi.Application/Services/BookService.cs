@@ -5,38 +5,64 @@ using LibraryApi.Domain.Entities;
 
 namespace LibraryApi.Application.Services;
 
+/// <summary>
+/// Handles book business logic with in-memory caching on read operations.
+/// Cache is invalidated on any write (create/update/delete).
+/// </summary>
 public class BookService : IBookService
 {
     private readonly IBookRepository _bookRepository;
     private readonly IAuthorRepository _authorRepository;
     private readonly ICategoryRepository _categoryRepository;
+    private readonly ICacheService _cache;
 
-    public BookService(IBookRepository bookRepository, IAuthorRepository authorRepository, ICategoryRepository categoryRepository)
+    // Cache key constants — centralised so invalidation is consistent.
+    private const string CacheKeyAll = "books:all";
+    private const string CacheKeyByIdPrefix = "books:id:";
+
+    public BookService(
+        IBookRepository bookRepository,
+        IAuthorRepository authorRepository,
+        ICategoryRepository categoryRepository,
+        ICacheService cache)
     {
         _bookRepository = bookRepository;
         _authorRepository = authorRepository;
         _categoryRepository = categoryRepository;
+        _cache = cache;
     }
 
-    public async Task<IEnumerable<BookDto>> GetAllAsync()
+    /// <summary>
+    /// Returns all books. Result is cached; subsequent calls skip the database.
+    /// </summary>
+    public Task<IEnumerable<BookDto>> GetAllAsync()
     {
-        var books = _bookRepository.Query().Select(b => new BookDto
+        return _cache.GetOrCreateAsync(CacheKeyAll, async () =>
         {
-            Id = b.Id,
-            Title = b.Title,
-            Isbn = b.Isbn,
-            PublishedYear = b.PublishedYear,
-            AuthorId = b.AuthorId,
-            AuthorFullName = b.Author.FirstName + " " + b.Author.LastName,
-            Categories = b.Categories.Select(c => c.Name).ToList()
+            var books = _bookRepository.Query().Select(b => new BookDto
+            {
+                Id = b.Id,
+                Title = b.Title,
+                Isbn = b.Isbn,
+                PublishedYear = b.PublishedYear,
+                AuthorId = b.AuthorId,
+                AuthorFullName = b.Author.FirstName + " " + b.Author.LastName,
+                Categories = b.Categories.Select(c => c.Name).ToList()
+            });
+            return (IEnumerable<BookDto>)await Task.FromResult(books.ToList());
         });
-        return await Task.FromResult(books.ToList());
     }
 
-    public async Task<BookDto?> GetByIdAsync(int id)
+    /// <summary>
+    /// Returns a single book by id. Result is cached per-id.
+    /// </summary>
+    public Task<BookDto?> GetByIdAsync(int id)
     {
-        var book = await _bookRepository.GetByIdWithDetailsAsync(id);
-        return book == null ? null : MapToDto(book);
+        return _cache.GetOrCreateAsync($"{CacheKeyByIdPrefix}{id}", async () =>
+        {
+            var book = await _bookRepository.GetByIdWithDetailsAsync(id);
+            return book == null ? null : MapToDto(book);
+        });
     }
 
     public async Task<BookDto> CreateAsync(CreateBookDto dto)
@@ -62,6 +88,10 @@ public class BookService : IBookService
 
         var created = await _bookRepository.AddAsync(book);
         var withDetails = await _bookRepository.GetByIdWithDetailsAsync(created.Id);
+
+        // Invalidate the "all books" list cache so the new entry appears on the next read.
+        _cache.Remove(CacheKeyAll);
+
         return MapToDto(withDetails!);
     }
 
@@ -84,6 +114,11 @@ public class BookService : IBookService
         book.AuthorId = dto.AuthorId;
 
         await _bookRepository.UpdateAsync(book);
+
+        // Invalidate both the list cache and the specific-item cache.
+        _cache.Remove(CacheKeyAll);
+        _cache.Remove($"{CacheKeyByIdPrefix}{id}");
+
         return true;
     }
 
@@ -91,7 +126,13 @@ public class BookService : IBookService
     {
         var book = await _bookRepository.GetByIdAsync(id);
         if (book == null) return false;
+
         await _bookRepository.DeleteAsync(book);
+
+        // Invalidate both the list cache and the specific-item cache.
+        _cache.Remove(CacheKeyAll);
+        _cache.Remove($"{CacheKeyByIdPrefix}{id}");
+
         return true;
     }
 
