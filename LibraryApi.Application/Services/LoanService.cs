@@ -10,12 +10,18 @@ public class LoanService : ILoanService
     private readonly ILoanRepository _loanRepository;
     private readonly IBookRepository _bookRepository;
     private readonly IMemberRepository _memberRepository;
+    private readonly IEmailNotificationService _emailService;
 
-    public LoanService(ILoanRepository loanRepository, IBookRepository bookRepository, IMemberRepository memberRepository)
+    public LoanService(
+        ILoanRepository loanRepository,
+        IBookRepository bookRepository,
+        IMemberRepository memberRepository,
+        IEmailNotificationService emailService)
     {
         _loanRepository = loanRepository;
         _bookRepository = bookRepository;
         _memberRepository = memberRepository;
+        _emailService = emailService;
     }
 
     public async Task<IEnumerable<LoanDto>> GetAllAsync()
@@ -58,6 +64,15 @@ public class LoanService : ILoanService
         };
         var created = await _loanRepository.AddAsync(loan);
         var withDetails = await _loanRepository.GetByIdWithDetailsAsync(created.Id);
+
+        // Fire-and-forget: send confirmation email without blocking the HTTP response.
+        // The caller does not await this — it runs in the background.
+        _ = _emailService.SendLoanConfirmationAsync(
+            withDetails!.Member.Email,
+            $"{withDetails.Member.FirstName} {withDetails.Member.LastName}",
+            withDetails.Book.Title,
+            withDetails.LoanDate);
+
         return MapToDto(withDetails!);
     }
 
