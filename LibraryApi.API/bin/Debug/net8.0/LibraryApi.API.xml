@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibraryApi.API</name>
+    </assembly>
+    <members>
+        <member name="T:LibraryApi.API.Controllers.AuthController">
+            <summary>
+            Handles user registration, login, and identity queries.
+            </summary>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.AuthController.Register(LibraryApi.Application.DTOs.Auth.RegisterDto)">
+            <summary>Registers a new user account and returns a JWT token.</summary>
+            <param name="dto">Registration details (username, email, password).</param>
+            <response code="200">Registration successful. Returns JWT token.</response>
+            <response code="400">Username or email already taken.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.AuthController.Login(LibraryApi.Application.DTOs.Auth.LoginDto)">
+            <summary>Authenticates a user and returns a JWT token.</summary>
+            <param name="dto">Login credentials.</param>
+            <response code="200">Login successful. Returns JWT token.</response>
+            <response code="401">Invalid credentials.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.AuthController.GetCurrentUser">
+            <summary>Returns the currently authenticated user's identity (username and role).</summary>
+            <response code="200">Current user info.</response>
+            <response code="401">Not authenticated.</response>
+        </member>
+        <member name="T:LibraryApi.API.Controllers.AuthorsController">
+            <summary>
+            Manages library authors.
+            </summary>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.AuthorsController.GetAll">
+            <summary>Returns all authors.</summary>
+            <response code="200">List of authors.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.AuthorsController.GetById(System.Int32)">
+            <summary>Returns a single author by id.</summary>
+            <param name="id">Author identifier.</param>
+            <response code="200">The requested author.</response>
+            <response code="404">Author not found.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.AuthorsController.Create(LibraryApi.Application.DTOs.Author.CreateAuthorDto)">
+            <summary>Creates a new author. Requires Admin role.</summary>
+            <param name="dto">Author data.</param>
+            <response code="201">Author created successfully.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.AuthorsController.Update(System.Int32,LibraryApi.Application.DTOs.Author.UpdateAuthorDto)">
+            <summary>Updates an existing author. Requires Admin role.</summary>
+            <param name="id">Author identifier.</param>
+            <param name="dto">Updated author data.</param>
+            <response code="204">Author updated successfully.</response>
+            <response code="404">Author not found.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.AuthorsController.Delete(System.Int32)">
+            <summary>Deletes an author. Requires Admin role.</summary>
+            <param name="id">Author identifier.</param>
+            <response code="204">Author deleted successfully.</response>
+            <response code="404">Author not found.</response>
+        </member>
+        <member name="T:LibraryApi.API.Controllers.BooksController">
+            <summary>
+            Manages library books: CRUD operations, file uploads, and file downloads.
+            </summary>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.BooksController.GetAll">
+            <summary>Returns all books. Response is served from cache when available.</summary>
+            <response code="200">List of books (may be cached).</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.BooksController.GetById(System.Int32)">
+            <summary>Returns a single book by its id. Response is served from cache when available.</summary>
+            <param name="id">Book identifier.</param>
+            <response code="200">The requested book.</response>
+            <response code="404">Book not found.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.BooksController.Create(LibraryApi.Application.DTOs.Book.CreateBookDto)">
+            <summary>Creates a new book. Requires Admin role. Invalidates the books cache.</summary>
+            <response code="201">Book created successfully.</response>
+            <response code="400">Validation error (duplicate ISBN, invalid author, etc.).</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.BooksController.Update(System.Int32,LibraryApi.Application.DTOs.Book.UpdateBookDto)">
+            <summary>Updates an existing book. Requires Admin role. Invalidates the books cache.</summary>
+            <param name="id">Book identifier.</param>
+            <param name="dto">Updated book data.</param>
+            <response code="204">Book updated successfully.</response>
+            <response code="400">Validation error.</response>
+            <response code="404">Book not found.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.BooksController.Delete(System.Int32)">
+            <summary>Deletes a book. Requires Admin role. Invalidates the books cache.</summary>
+            <param name="id">Book identifier.</param>
+            <response code="204">Book deleted successfully.</response>
+            <response code="404">Book not found.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.BooksController.UploadFile(System.Int32,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Uploads a file (e.g. book cover image or PDF) for a specific book.
+            Allowed types: .pdf, .jpg, .jpeg, .png. Maximum size: 5 MB (dev: 10 MB).
+            Requires Admin role.
+            </summary>
+            <param name="id">Book identifier the file belongs to.</param>
+            <param name="file">Multipart form-data file.</param>
+            <response code="200">Upload successful. Returns the stored file name.</response>
+            <response code="400">File validation failed (wrong type, too large, empty).</response>
+            <response code="404">Book not found.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.BooksController.DownloadFile(System.Int32,System.String)">
+            <summary>
+            Downloads a previously uploaded file for a specific book.
+            </summary>
+            <param name="id">Book identifier.</param>
+            <param name="fileName">Stored file name returned by the upload endpoint.</param>
+            <response code="200">Binary file stream.</response>
+            <response code="404">Book or file not found.</response>
+        </member>
+        <member name="T:LibraryApi.API.Controllers.FileUploadResponseDto">
+            <summary>Response returned after a successful file upload.</summary>
+        </member>
+        <member name="P:LibraryApi.API.Controllers.FileUploadResponseDto.BookId">
+            <summary>The book this file is associated with.</summary>
+        </member>
+        <member name="P:LibraryApi.API.Controllers.FileUploadResponseDto.OriginalFileName">
+            <summary>Original file name provided by the client.</summary>
+        </member>
+        <member name="P:LibraryApi.API.Controllers.FileUploadResponseDto.StoredFileName">
+            <summary>Unique file name used for storage (use this for downloads).</summary>
+        </member>
+        <member name="P:LibraryApi.API.Controllers.FileUploadResponseDto.FileSizeBytes">
+            <summary>File size in bytes.</summary>
+        </member>
+        <member name="P:LibraryApi.API.Controllers.FileUploadResponseDto.DownloadUrl">
+            <summary>Direct URL to download this file.</summary>
+        </member>
+        <member name="T:LibraryApi.API.Controllers.LoansController">
+            <summary>
+            Manages book loans: borrow, return, and tracking.
+            Async email notifications are fired without blocking the response.
+            </summary>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.LoansController.GetAll">
+            <summary>Returns all loans.</summary>
+            <response code="200">List of all loans.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.LoansController.GetById(System.Int32)">
+            <summary>Returns a single loan by id.</summary>
+            <param name="id">Loan identifier.</param>
+            <response code="200">The requested loan.</response>
+            <response code="404">Loan not found.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.LoansController.Create(LibraryApi.Application.DTOs.Loan.CreateLoanDto)">
+            <summary>
+            Creates a new loan. Triggers an asynchronous email confirmation (fire-and-forget).
+            Requires Admin role.
+            </summary>
+            <param name="dto">Book and member identifiers.</param>
+            <response code="201">Loan created; confirmation email sent asynchronously.</response>
+            <response code="400">Book or member not found.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.LoansController.Return(System.Int32,LibraryApi.Application.DTOs.Loan.ReturnLoanDto)">
+            <summary>Marks a loan as returned. Requires Admin role.</summary>
+            <param name="id">Loan identifier.</param>
+            <param name="dto">Return date.</param>
+            <response code="204">Loan returned successfully.</response>
+            <response code="404">Loan not found.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.LoansController.Delete(System.Int32)">
+            <summary>Deletes a loan record. Requires Admin role.</summary>
+            <param name="id">Loan identifier.</param>
+            <response code="204">Loan deleted successfully.</response>
+            <response code="404">Loan not found.</response>
+        </member>
+        <member name="T:LibraryApi.API.Controllers.MembersController">
+            <summary>
+            Manages library members (borrowers).
+            </summary>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.MembersController.GetAll">
+            <summary>Returns all members.</summary>
+            <response code="200">List of all members.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.MembersController.GetById(System.Int32)">
+            <summary>Returns a single member by id.</summary>
+            <param name="id">Member identifier.</param>
+            <response code="200">The requested member.</response>
+            <response code="404">Member not found.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.MembersController.Create(LibraryApi.Application.DTOs.Member.CreateMemberDto)">
+            <summary>Creates a new member. Requires Admin role.</summary>
+            <param name="dto">Member data.</param>
+            <response code="201">Member created successfully.</response>
+            <response code="400">Email already in use.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.MembersController.Update(System.Int32,LibraryApi.Application.DTOs.Member.UpdateMemberDto)">
+            <summary>Updates an existing member. Requires Admin role.</summary>
+            <param name="id">Member identifier.</param>
+            <param name="dto">Updated member data.</param>
+            <response code="204">Member updated successfully.</response>
+            <response code="400">Email already in use.</response>
+            <response code="404">Member not found.</response>
+        </member>
+        <member name="M:LibraryApi.API.Controllers.MembersController.Delete(System.Int32)">
+            <summary>Deletes a member. Requires Admin role.</summary>
+            <param name="id">Member identifier.</param>
+            <response code="204">Member deleted successfully.</response>
+            <response code="404">Member not found.</response>
+        </member>
+    </members>
+</doc>
